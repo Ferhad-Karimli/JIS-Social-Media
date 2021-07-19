@@ -1,24 +1,30 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(177, 167, 165);
+}
+
 .header {
     /* width: 94.2%; */
-    width: 1440px;
-
-    height: 500px;
+   
+    width:  100%;
+  
     background-color: tomato;
-    margin-left: 36px;
     display: flex;
     flex-direction: row;
 }
 .analititcs{
     width: 324px;
-    height: 52px;
+    height: 3.25rem;
     background-color: #131315;
     border-radius: 8px;
     display:flex;
     justify-content: center;
     margin-top: 20px;
+    /* margin-left: 36px; */
 }
 .paragraph_a{
-    font-size: 14px;
+    font-size: 0.875rem;
     color: white;
 }
 
@@ -33,7 +39,7 @@
 }
 
 .posts{
-        width: 1020px;
+        width:946px;
         height: 400px;
         background-color: yellow;
         margin-left: 24px;
@@ -55,7 +61,7 @@
 }
 
 .filter{
-    width:1100px;
+    width:65%;
     margin-left: 80px;
     display: flex;
     flex-direction: row;
@@ -65,7 +71,8 @@
     
 }
 .sort{
-    width: 171px;
+   
+    width: 10.688rem !important;
     height: 48px;
     background-color:#F8F8F8;
     display: flex;
@@ -73,7 +80,7 @@
     border-radius: 8px;
 }
 .sub_sort{
-    width: 136px;
+    width: 8.5rem;
     height: 48px;
     background-color: #F8F8F8;
     display: flex;
@@ -90,8 +97,9 @@
    
 }
 .types{
+
     height: 48px;
-    width: 171px;
+    width: 10.688rem;
     background-color: #F8F8F8;
     border-radius: 8px;
     display: flex;
@@ -99,8 +107,9 @@
     align-items: center;
 
 }
+
 .sub_types{
-    width: 136px;
+    width: 8.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -108,16 +117,19 @@
 }
 .brands{
     height: 48px;
-    width: 171px;
+    width: 10.688rem;
     background-color: #F8F8F8;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
 
+
 }
+
+
 .sub_brand{
-    width: 136px;
+    width: 8.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -125,9 +137,9 @@
 
 }
 .today{
-
    
-    width: 171px;
+   
+    width: 10.688rem;
     height: 48px;
     background-color: hsl(0, 0%, 97%);
     border-radius: 8px;
@@ -137,8 +149,9 @@
    
 
 }
+
 .sub_today{
-    width: 136px;
+    width: 8.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -176,3 +189,50 @@
 .par_today{
     margin-left: 11px;
 }
+
+.analitics_dropdown{
+   
+   position: absolute;
+   top:  36% !important ;
+   left: 3% !important;
+   z-index: 250;
+   background-color: rgb(255, 255, 255);
+   box-shadow: rgb(52 143 80 / 40%) 0px 0px 0px;
+  
+}
+
+.published_posts{
+    /* width: 100%;
+    height: 100%; */
+}
+
+
+
+
+
+
+    @media only screen and (max-width: 1366px) {
+    
+        .analititcs{
+            width: 250px;
+            height: 3.25rem;
+            background-color: #131315;
+            border-radius: 8px;
+            display:flex;
+            justify-content: center;
+            /* margin-top: 20px; */
+        }
+
+        .sub_analitics{
+            width: 212px;
+            height: 3.25rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+          
+        
+        }
+          
+        }
+         

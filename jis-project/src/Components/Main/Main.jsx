@@ -1,14 +1,26 @@
 import style from "./Main.module.css";
+import {useState, UseState} from "react"
+import Analitics from "./Analitics";
+import PublishedPosts from "./PublishedPosts";
 
 
 function Main() {
+
+    const [ analitics,setanalitics] = useState(false)
+
   return (
+      <div className={style.container}>
+
+     
     <div className={style.header}>
      
       
   
      <div className={style.analititcs}>
-         <div className={style.sub_analitics}>
+         <div className={style.sub_analitics}
+         
+       
+         onClick={() => setanalitics(!analitics)}>
 
              
 
@@ -23,6 +35,13 @@ function Main() {
       
 
      </div>
+
+     {analitics && 
+
+     <div className={style.analitics_dropdown}>
+     <Analitics/>
+            </div>}
+
      
 
      <div className={style.posts}>
@@ -126,6 +145,23 @@ Export
          </div>
 
      </div>
+
+
+
+     </div>
+
+     <p>hello</p>
+
+     {/* Published post start */}
+
+<div className={style.published_posts}>
+    <PublishedPosts/>
+
+</div>
+
+
+
+     {/* Published post Finished */}
     
     </div>
   );
