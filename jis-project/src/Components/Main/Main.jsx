@@ -1,12 +1,19 @@
 import style from "./Main.module.css";
-import {useState, UseState} from "react"
+import {useState, } from "react"
 import Analitics from "./Analitics";
 import PublishedPosts from "./PublishedPosts";
+import Post from "./Post";
+import CalendarJis from "./CalendarJis";
+import Allposts from "./Allposts";
+
+
 
 
 function Main() {
 
     const [ analitics,setanalitics] = useState(false)
+    const [ postDropdown ,setpostDropdown] = useState(false)
+    const [ dropdownCalendar,setdropdownCalendar] = useState(false)
 
   return (
       <div className={style.container}>
@@ -23,8 +30,7 @@ function Main() {
          onClick={() => setanalitics(!analitics)}>
 
              
-
-         <p className={style.paragraph_a}>Analitics</p>  
+ <p className={style.paragraph_a}>Analitics</p>  
 
          <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4 3.49691e-07L0.535898 6L7.4641 6L4 3.49691e-07Z" fill="#F3F3F3"/>
@@ -85,7 +91,9 @@ Export
 
 
     </div>
-    <div className={style.types}>
+    <div className={style.types}
+   onClick={() => setpostDropdown(!postDropdown)}>
+         
 <div className={style.sub_types}>
 <p className={style.paragraph}>All past types</p>  
 
@@ -95,9 +103,27 @@ Export
 
 
 </div>
+
+
       
 
     </div>
+
+    {/* post gambburger start */}
+
+   
+   
+
+{  postDropdown && 
+
+<div className={style.header_post}>
+    <Post/>
+    
+    </div> }
+
+    {/* post gamburger finish */}
+
+
     <div className={style.brands}>
 
 <div className={style.sub_brand}>
@@ -120,7 +146,9 @@ Export
 </div>
 
     </div>
-    <div className={style.today}>
+    <div className={style.today}
+    
+    onClick={() => setdropdownCalendar(!dropdownCalendar) } >
 
    
         <div className={style.sub_today}>
@@ -141,28 +169,58 @@ Export
         </div>
   
     </div>
+
+
+    {/* Calendar  Start  */}
+
+
+    { dropdownCalendar && 
+<div className={style.dropdowncalendar}>
+
+
+<CalendarJis/>
+
+
+</div>
+
+
+
+
+    }
+
+
+    {/* Calendar Finish */}
+
+
 </div>
          </div>
 
-     </div>
+           {/* Published post start */}
 
-
-
-     </div>
-
-     <p>hello</p>
-
-     {/* Published post start */}
-
-<div className={style.published_posts}>
+         <div className={style.published_posts}>
     <PublishedPosts/>
 
 </div>
 
+   {/* Published post Finished */}
 
 
-     {/* Published post Finished */}
+   <div className={style.all_posts}>
+
     
+       <Allposts/>
+
+   </div>
+
+
+     </div>
+
+
+    
+
+
+     </div>
+
     </div>
   );
 }
