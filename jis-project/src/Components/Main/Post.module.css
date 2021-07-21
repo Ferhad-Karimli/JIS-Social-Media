@@ -1,6 +1,7 @@
 .container {
   width: 324px;
-  height: 17rem;
+  height: 300px;
+  background-color: white;
 }
 .cont {
   height: 3.5rem;
@@ -51,8 +52,8 @@
 
 @media only screen and (max-width: 1366px) {
   .container {
-    width: 250px !important;
-    height: 17rem;
+    width: 299px !important;
+   
   }
   .cont {
     height: 3.5rem;
