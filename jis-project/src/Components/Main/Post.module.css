@@ -78,4 +78,24 @@
     justify-content: space-between;
     align-items: center;
   }
+   .subsearch_brand {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .search_brand {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #e9ebef;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+ 
+  .cont_two_brand {
+    margin-left: 13px;
+  }
 }

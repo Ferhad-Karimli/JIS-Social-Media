@@ -36,7 +36,7 @@ function PublishedPosts() {
         <div className={style.sub_hashtags}>
           <p className={style.used}>Most Used 5 Hashtags</p>
           <div className={style.jis_container}>
-            <p className={style.js}>#JIStudio</p>
+            <p className={style.js_one}>#JIStudio</p>
             <p className={style.js}>#Design</p>
             <p className={style.js}>#Agency</p>
             <p className={style.js}>#Digital</p>

@@ -30,6 +30,7 @@ function Allposts() {
             <Card />
           </div>
 
+         
           <div className={style.card_1}>
             <Card />
           </div>
@@ -39,6 +40,49 @@ function Allposts() {
           <div className={style.card_1}>
             <Card />
           </div>
+          <div className={style.card_1}>
+            <Card />
+          </div>
+          <div className={style.card_1}>
+            <Card />
+          </div>
+          <div className={style.card_1}>
+            <Card />
+          </div>
+
+          <div className={style.card_1}>
+            <Card />
+          </div>
+
+          <div className={style.card_1}>
+            <Card />
+          </div>
+
+          <div className={style.card_1}>
+            <Card />
+          </div>
+
+          <div className={style.card_1}>
+            <Card />
+          </div>
+          <div className={style.card_1}>
+            <Card />
+          </div>
+          <div className={style.card_1}>
+            <Card />
+          </div>
+          <div className={style.card_1}>
+            <Card />
+          </div>
+          <div className={style.card_1}>
+            <Card />
+          </div>
+          <div className={style.card_1}>
+            <Card />
+          </div>
+          
+          
+          
         </div>
       </div>
     </div>

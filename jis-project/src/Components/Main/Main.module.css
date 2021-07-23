@@ -178,11 +178,12 @@
 .dropdowncalendar {
   position: absolute;
   top: 37.2% !important ;
-  left: 52% !important;
+  left: 42.1% !important;
   z-index: 253;
-  width: 666px;
+  width: 720px;
   height: 377px;
   border-radius: 14px;
+  
 }
 
 .header_post {
@@ -226,7 +227,7 @@
   z-index: 256;
   background-color: rgb(255, 255, 255);
   width: 324px;
-  height: 565px;
+  height: 280px;
   box-shadow: 0px 45px 80px rgba(0, 0, 0, 0.1),
     0px 10.0513px 17.869px rgba(0, 0, 0, 0.0238443),
     0px 2.99255px 5.32008px rgba(0, 0, 0, 0.0161557);
@@ -333,10 +334,10 @@
 
   .dropdowncalendar {
     position: absolute;
-    left: 49.5% !important;
+    left: 42.1% !important;
     z-index: 253;
     background-color: rgb(175, 33, 33);
-    width: 620px;
+    width: 720px;
     height: 377px;
   }
   .all_posts {
@@ -350,6 +351,7 @@
   .analitics_dropdown {
     position: absolute;
     width: 250px;
+    
   }
   .dropbrand {
    width: 250px;

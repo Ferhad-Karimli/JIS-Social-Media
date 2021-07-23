@@ -1,9 +1,26 @@
 .container {
   width: 1020px;
-  height: 1680px;
+  height: 1700px;
   border-radius: 12px;
   border: 1px solid #dfe2e9;
+  overflow: auto;
+  height: 1600px;
+  scrollbar-color: rgb(126, 7, 245) green;
+  scrollbar-width:2px;
+  scrollbar-width: thin;
+   
+  
+  
 }
+
+
+.mostly-customized-scrollbar::-webkit-scrollbar {
+    width: 2px;
+    height: 8px;
+    background-color: rgb(255, 0, 0); /* or add it to the track */
+  }
+
+
 .card_1 {
   width: 292px;
   height: 292px;
@@ -12,7 +29,7 @@
 }
 .main_container {
   background-color: white;
-  height: 1621px;
+  height: 3621px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

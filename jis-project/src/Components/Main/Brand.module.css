@@ -1,6 +1,10 @@
 .container {
   width: 324px;
   height: 23rem;
+  overflow: auto;
+  height: 1600px;
+  scrollbar-color: rgb(126, 7, 245) green;
+  scrollbar-width: thin;
 }
 .cont {
   height: 3.5rem;
@@ -21,6 +25,11 @@
 }
 .word {
   margin-left: 16px;
+}
+.paragraph_c{
+    font-size: 14px;
+    color: #B9B9B9;
+    ;
 }
 
 @media only screen and (max-width: 1366px) {
