@@ -82,6 +82,7 @@
 
 .paragraph {
   font-size: 14px;
+  font-weight: 700;
 }
 .icon {
   color: black;
@@ -140,6 +141,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-weight: 700;
+
 }
 
 .posts_par {
@@ -155,6 +158,7 @@
 .paragraph_b {
   font-size: 14px;
   margin-left: 10px;
+  font-weight: 700;
 }
 .today_br {
   display: flex;
@@ -164,6 +168,7 @@
 
 .par_today {
   margin-left: 11px;
+  font-weight: 700;
 }
 
 .analitics_dropdown {
@@ -347,7 +352,9 @@
     border-radius: 12px;
     border: #dfe2e9;
     border: 1px thin #a0a096;
+    scrollbar-width:2px;
   }
+
   .analitics_dropdown {
     position: absolute;
     width: 250px;

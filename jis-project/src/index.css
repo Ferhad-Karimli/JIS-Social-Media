@@ -1,7 +1,14 @@
 body {
   margin: 0;
- font-family: Helvetica Now Display;
- -webkit-font-smoothing: antialiased;
+  font-family: -apple-system,Helvetica Now Display,  'Helvetica Neue',
+    sans-serif;
+    /* font-family: Helvetica Now Display; */
+    /* font-family: Helvetica Now Display;
+    font-family: HelveticaNowDisplay-RegIta; */
+    /* font-family: HelveticaNowDisplay-Bold; */
+
+
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   cursor: pointer;
 }
@@ -11,7 +18,37 @@ code {
     monospace;
 }
 
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 2em
+}
+::-webkit-scrollbar-button {
+  background:  #eee;;
+  border-radius: 20%;
+  border-radius: 12px;
+}
+::-webkit-scrollbar-track-piece {
+  background: #eee;
+  border-radius: 12px;
+}
+::-webkit-scrollbar-thumb {
+
+  background: #B9B9B9;
+  border-radius: 20%;
+  border-radius: 12px;
+  
+}​
+
+
+
 .DayPicker-wrapper {
   outline: none;
+ 
 }
+
+
+
+
+
 

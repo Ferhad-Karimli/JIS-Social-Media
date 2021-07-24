@@ -55,6 +55,9 @@
     background-color: #131315;
     color: white;
     border-radius: 4px;
+
+    color: #4a90e2;
+    color:  #f0f8ff;
   }
   
   .calendar .day.today:hover {

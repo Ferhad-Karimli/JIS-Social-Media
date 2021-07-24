@@ -31,6 +31,13 @@
     color: #B9B9B9;
     ;
 }
+.input{
+    outline-style: none !important;
+    border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-style: hidden;
+}
 
 @media only screen and (max-width: 1366px) {
   .container {

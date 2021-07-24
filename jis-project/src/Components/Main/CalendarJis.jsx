@@ -3,6 +3,8 @@ import React, { useState } from "react";
 // import Calendar from "react-calendar";
 import Calendar from './Calendar/index'
 import Calendar_2 from './Calendar/second_index'
+import Ncalendar from "./Calendar/Ncalendar";
+import ClassCalendar from "./Calendar/ClassCalendar";
 
 // import { Calendar } from './Calendar/Calend';
 // import  {Calendar}  from './Calendar/calendar';
@@ -21,7 +23,9 @@ function CalendarJis() {
           <div className={style.calendar_one}>
             {/* <Calendar onChange={onChange} value={value} /> */}
             {/* <Calendar/> */}
-            < Calendar/>
+            {/* < Calendar/> */}
+            {/* <Ncalendar/> */}
+            <ClassCalendar/>
 
           </div>
         </div>
@@ -36,7 +40,9 @@ function CalendarJis() {
           <div className={style.calendar_two}>
             {/* <Calendar onChange={onChange} value={value} /> */}
             {/* <Calendar/> */}
-            <Calendar_2/>
+            {/* <Calendar_2/> */}
+            {/* <ClassCalendar/> */}
+            <ClassCalendar/>
           </div>
         </div>
         <div className={style.reservation}>

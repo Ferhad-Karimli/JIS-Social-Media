@@ -65,7 +65,7 @@ function Main() {
                       fill="#854EDE"
                     />
                   </svg>
-                  Export
+               <span>Export</span>   
                 </div>
               </div>
 
