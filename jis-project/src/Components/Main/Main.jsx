@@ -74,7 +74,7 @@ function Main() {
                 onClick={() => setdropdownSort(!dropdownSort)}
               >
                 <div className={style.sub_sort}>
-                  <p className={style.paragraph}>Sort By Dates</p>
+                  <p className={style.paragraph}>Sort by dates</p>
 
                   <svg
                     width="10"
