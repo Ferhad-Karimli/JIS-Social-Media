@@ -15,7 +15,7 @@ function Footer () {
 
 <img src={photo} alt="" />
 
-
+{/* //change start */}
 </div>
 
         <p className={style.price}>Pricing</p>
